@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Generated files extracted from PDFs
+images/*
+!images/.gitkeep
+data/*.pdf
+
+# Local environment files
+.env
+.env.*
+!.env.example
